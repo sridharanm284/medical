@@ -1,0 +1,238 @@
+.container {
+    padding: 20px;
+    text-align: center;
+    
+        background-image: url('../src/image/doctor.jpg');
+        background-size: cover;
+        background-position: center;
+        min-height: 100vh; /* Ensure the background covers the entire viewport */
+       
+      
+  }
+  
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .card {
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    width: 250px;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .card h2 {
+    font-size: 24px;
+  }
+  
+  .card p {
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+  
+  .card a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .card a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Custom styles for each card */
+  .patient-data {
+    background-color: #ffdb9e;
+  }
+  
+  .hospital-list {
+    background-color: #c1e1c5;
+  }
+  
+  .doctor-list {
+    background-color: #bdd7e7;
+  }
+  
+  .medicine-list {
+    background-color: #fac0e8;
+  }
+  
+  .diagnosis-list {
+    background-color: #d4a5ff;
+  }
+
+  .popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .popup-content {
+    position: relative;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .close-btn:hover {
+    color: #555;
+  }
+  
+  
+  .close-btn {
+    position: absolute; /* Set absolute positioning */
+    top: 10px;
+    right: 10px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .upload-container {
+    margin-top: 20px;
+  }
+  
+  .upload-container p {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .upload-container input[type="file"] {
+    display: none; /* Hide the default file input */
+  }
+  
+  .upload-container label {
+    display: inline-block;
+    background-color: #007bff; /* Change background color */
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .upload-container label:hover {
+    background-color: #0056b3; /* Darker color on hover */
+  }
+  
+  .patient-page-heading {
+    font-size: 24px; /* Adjust font size */
+    color: #333; /* Set text color */
+    text-align: center; /* Center align text */
+    margin-bottom: 20px; /* Add some bottom margin for spacing */
+    text-transform: uppercase; /* Convert text to uppercase */
+    letter-spacing: 2px; /* Add letter spacing for emphasis */
+    
+  }
+
+  .upload-instructions {
+  font-size: 16px; /* Adjust font size */
+  color: #555; /* Set text color */
+  text-align: center; /* Center align text */
+  margin-bottom: 20px; /* Add some bottom margin for spacing */
+}
+.close-btn {
+  position: absolute;
+  top: 10px; /* Adjust top distance */
+  right: 10px; /* Adjust right distance */
+  cursor: pointer;
+  outline: none; /* Remove outline on focus */
+}
+
+.close-btn img {
+  width: 20px; /* Adjust icon size */
+}
+
+/* Add this CSS to your Home.css file */
+
+/* Styling for the disease symptoms */
+.disease-symptoms {
+  margin-top: 20px;
+}
+
+.disease-symptom-group {
+  margin-bottom: 20px;
+}
+
+.disease-symptom-group h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #333; /* Adjust color as needed */
+}
+
+.disease-symptom-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 16px;
+  color: #555; /* Adjust color as needed */
+}
+
+.disease-symptom-group input[type="checkbox"] {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+/* Styling for the Predict button */
+.predict-button {
+  margin-top: 20px;
+}
+
+.predict-button button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.predict-button button:hover {
+  background-color: #45a049;
+}
+
+/* Styling for the prediction result */
+.prediction-result {
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.prediction-result p {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.prediction-result h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+
+
+  
