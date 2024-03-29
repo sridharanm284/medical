@@ -14,12 +14,12 @@ const Patient = ({ handleFileUpload }) => {
   const [predictionResult, setPredictionResult] = useState(null);
   const [csrfToken, setCSRFToken] = useState('');
   const [diseaseSymptoms, setDiseaseSymptoms] = useState({
-    "Alzheimer's Disease": ["Memory loss", "Confusion", "Difficulty in problem-solving"],
-    "Heart Disease": ["Chest pain", "Shortness of breath", "Fatigue"],
-    "Hypertension": ["Headaches", "Dizziness", "Nosebleeds"],
-    "Malaria or Dengue": ["Fever", "Chills", "Headache"],
-    "Pneumonia": ["Cough", "Fever", "Difficulty breathing"],
-    "Ringworm": ["Itchy, red, raised, scaly patches", "Circular patches"]
+    "Alzheimer's Disease - patient name : priya": ["Memory loss", "Confusion", "Difficulty in problem-solving"],
+    "Heart Disease - patient name : Prakesh": ["Chest pain", "Shortness of breath", "Fatigue"],
+    "Hypertension - patient name : Arun": ["Headaches", "Dizziness", "Nosebleeds"],
+    "Malaria or Dengue - patient name : dharshini": ["Fever", "Chills", "Headache"],
+    "Pneumonia - patient name : sanjay": ["Cough", "Fever", "Difficulty breathing"],
+    "Ringworm -  patient name : anushiya": ["Itchy, red, raised, scaly patches", "Circular patches"]
   });
   const [selectedSymptoms, setSelectedSymptoms] = useState([]);
 

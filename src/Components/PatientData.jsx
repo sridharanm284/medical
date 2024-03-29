@@ -6,11 +6,12 @@ const PatientData = () => {
 
   // Sample patient data
   const samplePatientData = [
-    { id: 1, name: 'John Doe', age: 30, gender: 'Male', condition: 'Hypertension' },
-    { id: 2, name: 'Jane Smith', age: 25, gender: 'Female', condition: 'Diabetes' },
-    { id: 3, name: 'Alice Johnson', age: 40, gender: 'Female', condition: 'Asthma' },
-    { id: 4, name: 'Bob Williams', age: 35, gender: 'Male', condition: 'Arthritis' },
-      { id: 5, name: 'Emma Davis', age: 28, gender: 'Female', condition: 'Migraine' },
+    { id: 1, name: 'Arun', age: 30, gender: 'Male', condition: 'Hypertension' },
+    { id: 2, name: 'anushiya', age: 25, gender: 'Female', condition: 'Ringworm' },
+    { id: 3, name: 'priya', age: 40, gender: 'Female', condition: 'Alzheimers Disease' },
+    { id: 4, name: 'Prakesh', age: 35, gender: 'Male', condition: 'Heart Disease' },
+      { id: 5, name: 'dharshini', age: 28, gender: 'Female', condition: 'Dengue' },
+      { id: 6, name: 'sanjay', age: 15, gender: 'Male', condition: 'Pneumonia' },
     // Add more sample data as needed
   ];
 
